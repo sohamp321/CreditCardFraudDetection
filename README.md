@@ -8,6 +8,7 @@ Credit card fraud detection is a critical task in the financial industry to iden
 ## Dataset
 The dataset used for training and testing the model is the [Credit Card Fraud Detection dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?select=creditcard.csv) from Kaggle. The dataset contains credit card transaction details, including transaction amount, time, and a class label indicating whether the transaction is fraudulent (Class 1) or not (Class 0).
 
+Download it from the given link.
 
 
 ## Setup
@@ -40,8 +41,9 @@ The following steps are performed in the code:
 
 ## How to Use
 Clone this repository to your local machine.
+Download the dataset from kaggle using the link given above.
 
-Run the credit_card_fraud_detection.ipynb notebook in an IDE of your choice.
+Run the credit_card_fraud_detection.ipynb notebook in an IDE of your choice, put in the location of the downloaded dataset in the notebook and run it.
 
 The notebook will load the data, preprocess it, perform PCA, train the three models, and display the evaluation results.
 
